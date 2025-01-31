@@ -1,0 +1,40 @@
+{
+  "name": "@brandextract/nativescript-phone",
+  "version": "3.0.4",
+  "description": "Fork of @msywensky's NativeScript plugin to use the device phone and SMS features for Android and iOS. Contains just the patched and built files",
+  "main": "index",
+  "typings": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandextracta-dev/nativescript-phone.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "Phone",
+    "SMS",
+    "android",
+    "ios"
+  ],
+  "scripts": {
+  },
+  "dependencies": {
+    "nativescript-permissions": "~1.3.11",
+    "ts-node": "^9.1.1"
+  },
+  "author": {
+    "name": "Donovan Buck",
+    "url": "https://github.com/dtex"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msywensky/nativescript-phone/issues"
+  },
+  "homepage": "https://github.com/msywensky/nativescript-phone",
+  "nativescript": {
+    "platforms": {
+      "android": "1.0.0",
+      "ios": "1.0.0"
+    }
+  }
+}
